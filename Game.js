@@ -17,7 +17,7 @@ class Game {
    
     }
    
-    render(colors = ['url(https://bi.im-g.pl/im/3f/38/19/z26445887V,Jaroslaw-Kaczynski-podczas-wyglaszania-oredzia.jpg)', 'url(https://bi.im-g.pl/im/3f/38/19/z26445887V,Jaroslaw-Kaczynski-podczas-wyglaszania-oredzia.jpg)', 'url(https://bi.im-g.pl/im/3f/38/19/z26445887V,Jaroslaw-Kaczynski-podczas-wyglaszania-oredzia.jpg)'], money = this.wallet.getWalletValue(), result = "", stats = [0, 0, 0], bid = 0, wonMoney = 0) {
+    render(colors = ['url(https://images.freeimages.com/images/large-previews/b7e/jamie-lee-1436054.jpg)', 'url(https://images.freeimages.com/images/large-previews/b7e/jamie-lee-1436054.jpg)', 'url(https://images.freeimages.com/images/large-previews/b7e/jamie-lee-1436054.jpg)'], money = this.wallet.getWalletValue(), result = "", stats = [0, 0, 0], bid = 0, wonMoney = 0) {
      // console.log("gramy!!");
    
      this.boards.forEach((board, i) => {
